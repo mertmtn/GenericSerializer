@@ -1,0 +1,12 @@
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\bin\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.deps.json
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\bin\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.dll
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\bin\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.pdb
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\bin\Debug\netcoreapp3.0\GenericSerializer.Base.dll
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\bin\Debug\netcoreapp3.0\GenericSerializer.Base.pdb
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.csprojAssemblyReference.cache
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.AssemblyInfo.cs
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.csproj.CopyComplete
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.dll
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.pdb
+C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.MediaTypes\obj\Debug\netcoreapp3.0\GenericSerializer.MediaTypes.csproj.CoreCompileInputs.cache
