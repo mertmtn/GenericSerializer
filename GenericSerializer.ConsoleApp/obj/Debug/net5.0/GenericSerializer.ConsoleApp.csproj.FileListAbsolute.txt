@@ -1,6 +1,0 @@
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\bin\Debug\net5.0\GenericSerializer.ConsoleApp.exe
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\obj\Debug\net5.0\GenericSerializer.ConsoleApp.csprojAssemblyReference.cache
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\obj\Debug\net5.0\GenericSerializer.ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\obj\Debug\net5.0\GenericSerializer.ConsoleApp.AssemblyInfo.cs
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.ConsoleApp\obj\Debug\net5.0\GenericSerializer.ConsoleApp.csproj.CopyComplete
