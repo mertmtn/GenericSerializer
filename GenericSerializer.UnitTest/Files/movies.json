@@ -1,0 +1,47 @@
+[
+  {
+    "FilmAdi": "They Shall Not Grow Old",
+    "FilmYil": 2018,
+    "FilmKategori": "Documentary"
+  },
+  {
+    "FilmAdi": "Midnight Family",
+    "FilmYil": 2019,
+    "FilmKategori": "Documentary"
+  },
+  {
+    "FilmAdi": "Pain & Gain",
+    "FilmYil": 2013,
+    "FilmKategori": "Action"
+  },
+  {
+    "FilmAdi": "The Irishman",
+    "FilmYil": 2019,
+    "FilmKategori": "Biography" 
+  },
+  {
+    "FilmAdi": "Marriage Story",
+    "FilmYil": 2019, 
+    "FilmKategori": "Comedy"   
+  },
+  {
+    "FilmAdi": "Little Women",
+    "FilmYil": 1994, 
+    "FilmKategori": "Drama"   
+  },
+  {
+    "FilmAdi": "Parasite",
+    "FilmYil": 2019, 
+    "FilmKategori": "Comedy"   
+  },
+  {
+    "FilmAdi": "Knives Out",
+    "FilmYil": 2019,   
+    "FilmKategori": "Comedy"   
+  },
+  {
+    "FilmAdi": "Dolemite Is My Name",
+    "FilmYil": 2019,   
+    "FilmKategori": "Biography"     
+  }
+]

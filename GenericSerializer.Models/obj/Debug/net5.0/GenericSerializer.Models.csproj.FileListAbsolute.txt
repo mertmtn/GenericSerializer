@@ -1,4 +1,0 @@
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.Models\bin\Debug\net5.0\GenericSerializer.Models.exe
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.Models\obj\Debug\net5.0\GenericSerializer.Models.csprojAssemblyReference.cache
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.Models\obj\Debug\net5.0\GenericSerializer.Models.AssemblyInfoInputs.cache
-C:\Users\Toshiba\Source\repos\GenericSerializer\GenericSerializer.Models\obj\Debug\net5.0\GenericSerializer.Models.AssemblyInfo.cs

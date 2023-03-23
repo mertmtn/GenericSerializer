@@ -198,11 +198,12 @@ namespace GenericSerializer.UnitTest
         [Test]
         public void JSON_Serialize_ToObject_FromFile()
         {
-            var jsonSerializer = GenericSerializer<Film>.CreateSerializerObject(DataFormatType.JSON);
+            var jsonSerializer = GenericSerializer<List<Film>>.CreateSerializerObject(DataFormatType.JSON);
+ 
+            string projectDirectory = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName; 
+            var film = jsonSerializer.DeserializeFromFile(Path.Combine(projectDirectory, "Files\\movies.json"));
 
-            var film = jsonSerializer.DeserializeFromFile(@"D:\movie.json");
-
-            Assert.IsNotNull(film.FilmAdi);
+            Assert.IsNotNull(film[0].FilmAdi);
         }
 
         [Test]
