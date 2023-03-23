@@ -5,7 +5,7 @@ JSON ve XML için metotlar oluşturulmuştur.
 
 Kullanulan diller ve prensipler.
 
-Programlama Dili/Platform : C#, .NET Core 3.0
+Programlama Dili/Platform : C#, .NET 7
 
 Prensipler: OOP
 
@@ -19,8 +19,8 @@ Generic Serializer is a library which has some dataformats e.g XML,JSON serializ
 
 Used languages and principles
 
-Language/Platform: C#, .NET Core 3.0
+Language/Platform: C#, .NET 7
 
 Principles: OOP
 
-Design Pattern: Factory
+Design Pattern: Factory Pattern
