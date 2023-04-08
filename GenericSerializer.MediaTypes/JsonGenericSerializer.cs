@@ -1,7 +1,7 @@
 ﻿using GenericSerializer.Base;
-using Newtonsoft.Json; 
+using Newtonsoft.Json;
 using System.IO;
-using System.Net;
+using System.Net; 
 
 namespace GenericSerializer.DataFormat
 {
@@ -9,9 +9,11 @@ namespace GenericSerializer.DataFormat
     {
         public T DeserializeFromFile(string fileName)
         {
-            using StreamReader file = File.OpenText(fileName);
-            var serializer = new JsonSerializer();
-            return (T)serializer.Deserialize(file, typeof(T));
+            using (var file = File.OpenText(fileName))
+            { 
+                var serializer = new JsonSerializer();
+                return (T)serializer.Deserialize(file, typeof(T));
+            }
         }
 
         public T DeserializeFromLink(string link)
@@ -23,16 +25,18 @@ namespace GenericSerializer.DataFormat
 
         public T DeserializeFromString(string jsonString)
         {
-            return System.Text.Json.JsonSerializer.Deserialize<T>(jsonString);
+            return  System.Text.Json.JsonSerializer.Deserialize<T>(jsonString);
         }
 
         public void SerializeToFile(T objectData, string fileName)
-        {            
+        {
             File.WriteAllText(fileName, JsonConvert.SerializeObject(objectData));
-           
-            using StreamWriter file = File.CreateText(fileName);
-            var serializer = new JsonSerializer();
-            serializer.Serialize(file, objectData);
+
+            using (var file = File.CreateText(fileName))
+            {
+                var serializer = new JsonSerializer();
+                serializer.Serialize(file, objectData);
+            }
         }
 
         public string SerializeToString(T objectData)

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Generic Serializer Package</Title>
+    <Company>Mert Metin</Company>
+    <Description>Generic Serializer on nuget</Description>
+    <PackageOutputPath>D:\LocalPackageRepository</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenericSerializer.Base\GenericSerializer.Base.csproj" />
+    <ProjectReference Include="..\GenericSerializer.MediaTypes\GenericSerializer.DataFormat.csproj" />
+    <ProjectReference Include="..\GenericSerializer.Models\GenericSerializer.Models.csproj" />
+  </ItemGroup>
+
+</Project>

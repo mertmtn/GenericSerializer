@@ -1,6 +1,6 @@
 ﻿using GenericSerializer.Base; 
 using System.IO;
-using System.Net;
+using System.Net; 
 using System.Text;
 using System.Xml.Serialization;
 
@@ -12,8 +12,10 @@ namespace GenericSerializer.DataFormat
         public T DeserializeFromFile(string fileName)
         {
             var xml = new XmlSerializer(typeof(T));
-            using StreamReader sr = new StreamReader(fileName);
-            return (T)xml.Deserialize(sr);
+            using (var sr = new StreamReader(fileName))
+            {
+                return (T)xml.Deserialize(sr);
+            }  
         }
 
         public T DeserializeFromLink(string link)
@@ -32,15 +34,19 @@ namespace GenericSerializer.DataFormat
         public T DeserializeFromString(string xmlString)
         {
             var serializer = new XmlSerializer(typeof(T));
-            using TextReader reader = new StringReader(xmlString);
-            return (T)serializer.Deserialize(reader);
+            using (var reader = new StringReader(xmlString))
+            {
+                return (T)serializer.Deserialize(reader);
+            } 
         }
 
         public void SerializeToFile(T objectData, string fileName)
         {
             var xml = new XmlSerializer(typeof(T));
-            using StreamWriter sw = new StreamWriter(fileName);
-            xml.Serialize(sw, objectData);
+            using (var sw = new StreamWriter(fileName))
+            {
+                xml.Serialize(sw, objectData);
+            } 
         }
 
         public string SerializeToString(T objectData)

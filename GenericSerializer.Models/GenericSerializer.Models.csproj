@@ -2,7 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageOutputPath>D:\LocalPackageRepository</PackageOutputPath>
+	  <Title>GenericSerializer - Models</Title>
+	  <Description>GenericSerializer için Model sınıfı</Description>
+	  <RepositoryUrl>https://github.com/mertmtn/GenericSerializer</RepositoryUrl>
+	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
+	  <FileVersion>1.0.0.1</FileVersion>
+	  <Authors>$(AssemblyName)</Authors>
   </PropertyGroup>
 
   <ItemGroup>
